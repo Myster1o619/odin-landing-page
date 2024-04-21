@@ -28,10 +28,12 @@ body {
 
 .header-container {
     background-color: var(--dark-background);
+    padding: 25px 70px;
 }
 
 .header-container ul {
     display: flex;
+    align-items: center;
     gap: 30px;
     list-style-type: none;
 }
@@ -39,6 +41,10 @@ body {
 .header-container a {
     text-decoration: none;
     color: var(--main-text);
+}
+
+.header-logo-txt {
+    font-size: 24px;
 }
 
 .header-container a:hover {
