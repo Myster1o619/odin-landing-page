@@ -131,3 +131,13 @@ body {
     color: var(--main-text);
 }
 
+.info-header-txt {
+    text-align: center;
+    /* extra bold */
+    font-weight: 800;
+    /* extra bold */
+    font-size: 36px;
+    color: var(--dark-background);
+    padding: 20px;
+}
+
