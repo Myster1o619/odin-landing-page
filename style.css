@@ -82,3 +82,15 @@ body {
     font-weight: 800;
     /* extra bold */
 }
+
+.btn {
+    color: var(--main-text);
+    background-color: var(--btn-color);
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-hero {
+    border: var(--dark-background);
+}
