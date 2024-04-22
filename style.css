@@ -138,6 +138,13 @@ body {
     /* extra bold */
     font-size: 36px;
     color: var(--dark-background);
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.info-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
 }
 
