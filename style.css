@@ -166,3 +166,28 @@ body {
     width: 150px;
     text-align: center;
 }
+
+.main-quotation-container {
+    background-color: var(--secondary-text);
+    padding: 25px 70px;
+}
+
+.quotation-container {
+    text-align: center;
+    font-size: 36px;
+    color: var(--dark-background);
+    /* light */
+    font-weight: 300;
+    /* light */
+    font-style: italic;
+}
+
+.author-container {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: var(--dark-background);
+    /* extra bold */
+    font-weight: 800;
+    /* extra bold */
+}
