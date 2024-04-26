@@ -169,7 +169,7 @@ body {
 
 .main-quotation-container {
     background-color: var(--secondary-text);
-    padding: 25px 70px;
+    padding: 70px 70px;
 }
 
 .quotation-container {
@@ -190,4 +190,33 @@ body {
     /* extra bold */
     font-weight: 800;
     /* extra bold */
+}
+
+.call-to-action-wrapper {
+    padding: 70px 70px;
+}
+
+.main-call-to-action-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px 100px;
+    align-items: center;
+
+}
+
+.call-to-action-heading {
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--secondary-text);
+}
+
+.call-to-action-txt {
+    font-size: 18px;
+    color: var(--secondary-text);
+}
+
+.btn-call-to-action {
+    border: solid 2px var(--secondary-text);
 }
