@@ -220,3 +220,11 @@ body {
 .btn-call-to-action {
     border: solid 2px var(--secondary-text);
 }
+
+.footer-container {
+    background-color: var(--dark-background);
+    color: var(--secondary-text);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
